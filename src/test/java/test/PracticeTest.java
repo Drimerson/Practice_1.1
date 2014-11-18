@@ -48,6 +48,6 @@ public class PracticeTest {
     //
     @Test
     public void testConnection() {
-//        assertTrue(conn != null);
+        assertTrue(conn != null);
     }
 }
