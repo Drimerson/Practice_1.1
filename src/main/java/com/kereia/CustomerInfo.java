@@ -30,7 +30,7 @@ public class CustomerInfo implements Serializable {
     }
     
     public boolean info() {
-        return true;
+        return nc.getBoolean();
     }
     
 }

@@ -6,7 +6,9 @@
 
 package com.kereia;
 
+import java.sql.Connection;
 import javax.ejb.Stateless;
+import javax.inject.Inject;
 
 /**
  *
@@ -15,10 +17,17 @@ import javax.ejb.Stateless;
 @Stateless
 public class NewClass {
     
-    
+    @Inject
+    private Connection conn;
     
     public String getString() {
         return "LALA";
+    }
+
+    boolean getBoolean() {
+        if (conn != null) {
+            return true;
+        } else return false;
     }
     
 }
