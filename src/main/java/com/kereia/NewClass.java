@@ -17,8 +17,7 @@ import javax.inject.Inject;
 @Stateless
 public class NewClass {
     
-    @Inject
-    private Connection conn;
+   
     
     public String getString() {
         return "LALA";
