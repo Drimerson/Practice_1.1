@@ -29,8 +29,8 @@ public class CustomerInfo implements Serializable {
     public CustomerInfo() {
     }
     
-    public boolean info() {
-        return nc.getBoolean();
+    public String info() {
+        return nc.getString();
     }
     
 }

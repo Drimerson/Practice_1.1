@@ -24,10 +24,5 @@ public class NewClass {
         return "LALA";
     }
 
-    boolean getBoolean() {
-        if (conn != null) {
-            return true;
-        } else return false;
-    }
     
 }
