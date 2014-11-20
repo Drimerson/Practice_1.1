@@ -20,7 +20,7 @@ import javax.inject.Named;
 @Stateless
 public class CustomerInfo implements Serializable {
 
-    @EJB
+    @Inject
     private NewClass nc;
     
     /**
